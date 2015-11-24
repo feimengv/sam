@@ -1,0 +1,102 @@
+.l{float:left}
+.r{float:right}
+.cl{clear:both}
+.group:after{content:"\200B";display:block;height:0;clear:both}
+.tc{margin-left: 90px;}
+.tr{text-align:right}
+.tl{text-align:left}
+.tj{text-align:justify;*text-justify:distribute}
+.vt{vertical-align:top}
+.vm{vertical-align:middle}
+.vb{vertical-align:bottom}
+.f0{font-size:0}
+.fa{font-family:Arial}
+.fs{font-family:SimSun}
+.fyh{font-family:"Microsoft YaHei"}
+.indent{text-indent:2em}
+.n{font-weight:400;font-style:normal}
+.b{font-weight:700}
+.i{font-style:normal;}
+.tdn{text-decoration:none}
+.tdn:hover{text-decoration:none}
+.poi{cursor:pointer}
+.text-hide{line-height:999em;overflow:hidden}
+.drop_hl_extra{padding-left:999em;margin-left:-999em}
+.drop_vb_extra{padding-bottom:999em;margin-bottom:-999em}
+.realnameRegPage .accountOp{display:none}
+.realnameRegPage .navigator{display:none}
+.realnameRegPage.showAccount .accountOp{display:block}
+.realnamePage .navigator{display:none}
+.btn{min-width:80px}
+.btnGreen{min-width:80px}
+.btnDisable{min-width:80px;background-color:transparent}
+.frm-msg{overflow:hidden;*zoom:1}
+.msg-pic{float:left}
+.frm-msg-content{margin-left:66px}
+.frm-msg-t{font-size:16px;font-weight:700}
+.frm .frm-section{padding-bottom:20px}
+.section-hd{margin-bottom:20px;border-bottom:1px solid #b3b3b3}
+.section-t{line-height:30px;font-size:16px;font-weight:400;color:#666}
+.section-tip{margin-top:-30px;height:30px;line-height:30px;text-align:right;color:#999}
+.frm-info{padding-bottom:20px}
+.frm-opr a{margin-left:10px;margin-right:10px}
+.frm label{cursor:default}
+input,textarea{margin:0;padding:3px 5px;color:#666;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;outline:0}
+input[type="text"],input[type="password"],textarea{border:1px solid #b3b3b3;padding:9px;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);-moz-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075)}
+textarea{height:50px;max-height:50px}
+input,select{vertical-align:middle}
+.frm-controlS{width:140px;max-width:140px}
+.frm-controlM{width:297px;max-width:297px}
+.frm-controlL{width:460px;max-width:460px}
+.frm-controlXL{width:710px;max-width:710px}
+.frm-control-label{float:left;text-align:right;margin-top:8px;font-size:16px}
+.frm-controls{margin-left:80px}
+.frm-control-select{padding-top:6px}
+.frm-control-radio{display:inline-block;margin:4px 5px 0 0}
+.frm-control-radio input{margin-right:3px}
+.frm-control-checkbox{display:inline-block;margin-top:4px}
+.frm-control-checkbox input{margin-right:5px}
+.frm .desc{display:block;color:#929292;margin-top:4px;font-size:14px}
+.valid-msg{display:none}
+.valid-msg .arrow{display:none}
+.success-msg{color:#7fba4f;font-size:14px}
+.fail-msg{color:#b11516;font-size:14px}
+.fail-msg i{font-size:15px;margin-right:4px}
+.valid-msg-show-block .valid-msg{display:block}
+.valid-msg-show-inline .valid-msg{display:inline}
+.success-valided .fail-msg{display:none}
+.fail-valided .success-msg{display:none}
+.rn-reg-t{width:100%;*width:100%}
+a{color:#3b568f}
+
+.rn-box{padding:60px 60px 12px 60px;}
+.reg-box .frm-control-checkbox{margin-left:81px;margin-top:20px}
+.reg-box .frm-control-checkbox input{display:inline-block;margin-top:-4px;margin-right:4px;vertical-align:middle}
+.reg-box .auth-code{display:block;padding-top:5px}
+.reg-box .auth-code img,.reg-box .auth-code a{vertical-align:middle}
+.reg-box .auth-code a{margin-left:16px}
+.reg-box .frm-controlM{width:336px;max-width:336px}
+.reg-box .frm-controlM-select{
+width:126px;
+max-width:126px;
+margin: 0;
+padding: 3px 5px;
+color: #666;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+outline: 0;
+}
+.reg-box .frm-control-group{margin-top:12px}
+.reg-box .frm-control-group.extra{margin-top:12px;}
+.reg-box .frm-section{padding-bottom:0;width:505px;border-right:1px solid #ccc}
+.reg-box .frm-tip{margin-left:70px}
+.reg-box .frm-tip p{font-size:16px}
+.reg-box .frm-tip i{font-size:15px;margin-right:7px;color:#bebebe}
+.reg-box .frm-tip a{margin-left:10px}
+.reg-box .frm-opr{padding-top:24px}
+.active-box{padding-left:120px;padding-right:120px;height:443px}
+.active-box .mailto-access{padding-top:14px;padding-bottom:14px}
+.active-box .frm-ft{padding-left:66px}
+.active-box .frm-qa{padding-top:20px}
+

@@ -1,0 +1,181 @@
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    min-height: 520px;
+}
+
+.container .containerBox {
+    margin: 20px 0 20px 0;
+    box-shadow: 0 3px 3px #ddd;
+    -moz-box-shadow: 0 3px 3px #ddd;
+    -webkit-box-shadow: 0 3px 3px #ddd;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-color: #FFF;
+    border: 1px solid #d3d3d3
+}
+
+.container .containerBox .boxHeader {
+    background-color: #f0f0f0;
+    background-image: linear-gradient(bottom, #f0f0f0 3%, #f9f9f9 97%, #fff 100%);
+    background-image: -moz-linear-gradient(bottom, #f0f0f0 3%, #f9f9f9 97%, #fff 100%);
+    background-image: -webkit-linear-gradient(bottom, #f0f0f0 3%, #f9f9f9 97%, #fff 100%);
+    height: 35px;
+    padding-left: 20px;
+    border-bottom: 1px solid #d3d3d3
+}
+
+.container .containerBox .boxHeader h2 {
+    font-size: 14px;
+    line-height: 35px
+}
+
+.container .containerBox .boxHeader .msgSender {
+    max-width: 500px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1em
+}
+
+.container .containerBox .sideBar {
+    width: 190px;
+    float: left;
+    padding: 10px 0;
+}
+.container .containerBox .sideBar .catalogList ul li {
+    background-color: #FFF
+}
+
+.container .containerBox .sideBar .catalogList ul li a, .container .containerBox .sideBar .catalogList ul li span {
+    display: block;
+    padding: 5px 0 5px 20px;
+    color: #000;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.container .containerBox .sideBar .catalogList ul li:hover {
+    background-color: #0C7C11;
+    background-image: linear-gradient(bottom, #B55009 3%, #B55009 97%, #fff 100%);
+    background-image: -moz-linear-gradient(bottom, #B55009 3%, #B55009 97%, #fff 100%);
+    background-image: -webkit-linear-gradient(bottom, #0C7C11 3%, #0C7C11 97%, #fff 100%);}
+
+.container .containerBox .sideBar .catalogList ul li:hover a, .container .containerBox .sideBar .catalogList ul li:hover span {
+    color: #fff
+}
+
+.container .containerBox .sideBar .catalogList ul .subCatalogList {
+    padding-left: 15px
+}
+
+.container .containerBox .sideBar .catalogList ul .selected {
+    background-color: #0C7C11;
+    background-image: linear-gradient(bottom, #B55009 3%, #B55009 97%, #fff 100%);
+    background-image: -moz-linear-gradient(bottom, #B55009 3%, #B55009 97%, #fff 100%);
+    background-image: -webkit-linear-gradient(bottom, #0C7C11 3%, #0C7C11 97%, #fff 100%);}
+
+.container .containerBox .sideBar .catalogList ul .selected span, .container .containerBox .sideBar .catalogList ul .selected a {
+    color: #fff
+}
+/*Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½ÃšÂºÃ¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½ÃŠÂ½*/
+.container .containerBox .sideBar .newcatalogList ul li {
+    background-color: #FFF
+}
+
+.container .containerBox .sideBar .newcatalogList ul li a, .container .containerBox .sideBar .newcatalogList ul li span {
+    display: block;
+    padding: 5px 0 5px 20px;
+    color: #000;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.container .containerBox .sideBar .newcatalogList ul li:hover {
+background-color:#37712B;
+}
+
+.container .containerBox .sideBar .newcatalogList ul li:hover a, .container .containerBox .sideBar .newcatalogList ul li:hover span {
+    color: #fff
+}
+
+.container .containerBox .sideBar .newcatalogList ul .subnewcatalogList {
+    padding-left: 15px
+}
+
+.container .containerBox .sideBar .newcatalogList ul .selected {
+background-color:#37712B;border-left:1px solid #2d710c;border-right:1px solid #37712B;
+}
+
+.container .containerBox .sideBar .newcatalogList ul .selected span, .container .containerBox .sideBar .newcatalogList ul .selected a {
+    color: #fff
+}
+
+.container .containerBox .content {
+    width: 727px;
+    min-height: 450px;
+    float: right;
+    border-left: 1px solid #d3d3d3;
+    margin-left: -2px;
+    padding: 20px 20px 20px 20px
+}
+
+.container .boxIndex {
+    overflow: hidden;
+    *zoom: 1
+}
+
+.boxHeader h2 {
+    overflow: hidden;
+    *zoom: 1;
+    font-weight: 400
+}
+
+#footer {
+    margin-top: 20px;
+    padding: 30px 0;
+    background-color: #727171;
+    text-align: center;
+    font-size: 14px;
+    color: #dadada
+}
+
+#footer a {
+    padding-right: 10px;
+    margin-left: 10px;
+    color: #dadada
+}
+
+.title_button {
+    position:absolute; right:12px; top:12px;
+    border: 1px solid #3d810c;
+    box-shadow: 0 1px 1px #aaa;
+    -moz-box-shadow: 0 1px 1px #aaa;
+    -webkit-box-shadow: 0 1px 1px #aaa;
+    padding: 3px 12px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    overflow: visible;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    *zoom: 1;
+    background-color: #5ba607;
+    background-image: linear-gradient(bottom, #4d910c 3%, #69b310 97%, #fff 100%);
+    background-image: -moz-linear-gradient(bottom, #4d910c 3%, #69b310 97%, #fff 100%);
+    background-image: -webkit-linear-gradient(bottom, #4d910c 3%, #69b310 97%, #fff 100%);
+    color: #fff;
+    border: 1px solid #3d810c
+}
+
+.title_button:hover {
+    background-color: #5ba607;
+    background-image: linear-gradient(bottom, #3d810c 3%, #69b310 97%, #fff 100%);
+    background-image: -moz-linear-gradient(bottom, #3d810c 3%, #69b310 97%, #fff 100%);
+    background-image: -webkit-linear-gradient(bottom, #3d810c 3%, #69b310 97%, #fff 100%);
+    color: #fff
+}
+
