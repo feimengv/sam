@@ -11,3 +11,9 @@ application/config/database.php 修改数据库配置文件
 
 #PHP短标签写法
 short_open_tag = on
+
+#数据库配置
+默认使用SAM项目远程数据库，所有可以直接访问!(建议修改成自己的)
+
+#数据库文件
+根目录sam.sql
