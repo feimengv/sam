@@ -38,15 +38,10 @@ class Login_model extends CI_Model{
 
 		$result = $this->db->get('member');
 
-		if($data = $result->row_array())
+		if($member = $result->row_array())
 		{
 
-			//赋值COOKIE用户名、密码、用户ID、原始公众号
-
-			$member = $result->row_array();
-
 			//获取原始当前微信号
-
 			$array = array(
 
 				'author'=>$member['username'],

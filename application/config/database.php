@@ -48,9 +48,9 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = '115.28.81.248';
+$db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'sam';
-$db['default']['password'] = 'y9cwt6ws';
+$db['default']['password'] = '123qwesdf';
 $db['default']['database'] = 'sam';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = 'weixin_';
